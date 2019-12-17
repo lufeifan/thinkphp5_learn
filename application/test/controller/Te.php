@@ -7,7 +7,7 @@ use think\Db;
 class Te extends Controller
 {
     public function t(){
-        $s=Db::name("user")->select(); //查询全部数据
+        $s=Db::table("user")->select(); //查询全部数据
         return json($s);
     }
 
