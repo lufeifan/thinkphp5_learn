@@ -13,5 +13,11 @@ class Ts extends Controller
         $s=Name::select();
         return json($s);
     }
+    //添加一条数据
+    public function insert(){
+        $name=new Name();
+        $name->name='lululua';
+        $name->save();
+    }
 
 }
