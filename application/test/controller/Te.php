@@ -3,7 +3,7 @@
 namespace app\test\controller;
 use think\Controller;
 use think\Db;
-
+//数据库的增删查改，关联，视图，权限
 class Te extends Controller
 {
     public function t(){
