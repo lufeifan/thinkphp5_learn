@@ -1,0 +1,3 @@
+两个控制器index和test
+访问http://localhost/thinkphp5/public/index.php/test/te/inser
+index.php/控制器/类名/方法名
